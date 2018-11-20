@@ -8,7 +8,6 @@
 
 import Foundation
 @testable import NetworkApp
-import Alamofire
 
 class MockDataService: DataServiceProtocol {
     var completeClosure: (([[String : AnyObject]]?, String?) -> ())!

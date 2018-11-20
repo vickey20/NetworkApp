@@ -10,7 +10,6 @@
 		CB0DB276D30B88467F80D469 /* Pods_NetworkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201CA920EF15C65B75B898F0 /* Pods_NetworkApp.framework */; };
 		E264BCDD21A36AE00093D719 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264BCDC21A36AE00093D719 /* DataServiceProtocol.swift */; };
 		E264BCE121A371670093D719 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264BCE021A371670093D719 /* MockDataService.swift */; };
-		E264BCE321A382900093D719 /* ErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264BCE221A382900093D719 /* ErrorCodes.swift */; };
 		E26851512194D6B5005F0C04 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26851502194D6B5005F0C04 /* TableViewCell.swift */; };
 		E26851532194DBCE005F0C04 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26851522194DBCE005F0C04 /* Contact.swift */; };
 		E26851552194E47D005F0C04 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26851542194E47D005F0C04 /* ContactsViewModel.swift */; };
@@ -39,7 +38,6 @@
 		5B926F51CF52C9474E876EDC /* Pods-NetworkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkApp/Pods-NetworkApp.release.xcconfig"; sourceTree = "<group>"; };
 		E264BCDC21A36AE00093D719 /* DataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
 		E264BCE021A371670093D719 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
-		E264BCE221A382900093D719 /* ErrorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCodes.swift; sourceTree = "<group>"; };
 		E26851502194D6B5005F0C04 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E26851522194DBCE005F0C04 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		E26851542194E47D005F0C04 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 		E268514C2194D663005F0C04 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				E264BCE221A382900093D719 /* ErrorCodes.swift */,
 				E26851542194E47D005F0C04 /* ContactsViewModel.swift */,
 			);
 			path = ViewModel;
@@ -341,7 +338,6 @@
 				E264BCDD21A36AE00093D719 /* DataServiceProtocol.swift in Sources */,
 				E26851572194E544005F0C04 /* DataService.swift in Sources */,
 				E26851552194E47D005F0C04 /* ContactsViewModel.swift in Sources */,
-				E264BCE321A382900093D719 /* ErrorCodes.swift in Sources */,
 				E26851512194D6B5005F0C04 /* TableViewCell.swift in Sources */,
 				E26851532194DBCE005F0C04 /* Contact.swift in Sources */,
 				E2D20FE1217FABC90035B9F5 /* AppDelegate.swift in Sources */,

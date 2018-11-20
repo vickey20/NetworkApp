@@ -6,12 +6,6 @@
 //  Copyright © 2018 Vikram Gupta. All rights reserved.
 //
 
-enum NetworkError: Error {
-    case ACCESS_DENIED
-    case BAD_GATEWAY
-    case FORBIDDEN
-}
-
 import Alamofire
 import SwiftyJSON
 import Foundation

@@ -9,7 +9,6 @@
 import XCTest
 import Foundation
 @testable import NetworkApp
-import Alamofire
 
 class NetworkAppTests: XCTestCase {
     var mockDataService: MockDataService!
